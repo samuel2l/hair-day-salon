@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+    color: white;
+}
+.nav{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.nav a{
+    text-decoration: overline double rgb(217, 99, 49);
+    color: white;
+
+}
+header img{
+    display: block;
+    margin: auto;
+}

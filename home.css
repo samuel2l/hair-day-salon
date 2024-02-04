@@ -28,8 +28,8 @@ header img{
 }
 #ele1{
     background-size: cover;
-    background-position-x: center;
-
+    background-position-x: 65%;
+ 
 
     background-image: url(media/bw4.jpg);
 
@@ -73,35 +73,23 @@ color: white;
     
 }
 #ele2 img,#ele3 img,#ele4 img{
-
     width: 100%;
     border-radius: 0.8rem;
-
-   
-    
 }
 #ele2 ,#ele3 ,#ele4 {
-
     border: 3px double rgb(217, 99, 49);
     border-radius: 0.8rem;
     height: fit-content;   
-    
-    
 }
-
 #ele4{
-    grid-column: 9/span 4;
-
-    
+    grid-column: 9/span 4;   
 }
-
-
 .footer{
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
+    /* flex end puts the copyright at the bottom */
 }
-
-
 
 
 @media screen and (max-width: 430px) {
