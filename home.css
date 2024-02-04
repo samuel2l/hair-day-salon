@@ -1,0 +1,112 @@
+body{
+    background-color: black;
+    color: white;
+}
+.nav{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.nav a{
+    text-decoration: overline double rgb(217, 99, 49);
+    color: white;
+
+}
+header img{
+    display: block;
+    margin: auto;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    gap: 0.7rem;
+    
+
+
+}
+#ele1{
+    background-size: cover;
+    background-position-x: center;
+
+
+    background-image: url(media/bw4.jpg);
+
+    grid-column: 1/span 12;
+   
+    
+color: white;
+}
+#ele1 h1{
+    color: rgb(217, 99, 49);
+    text-align: center;
+}
+.btn{
+    border: none;
+    border-radius: 10%;
+    text-align: center;
+}
+.btn button{
+    background-color: rgb(217, 99, 49);
+    border: none;
+    padding: 0.7rem;
+    border-radius: 0.6rem;
+
+}
+.btn button:hover{
+    cursor: pointer;
+}
+.btn a{
+    color: white;
+    text-decoration: none;
+
+}
+#ele2{
+    grid-column: 1/span 4;
+    
+}
+
+#ele3{
+    grid-column: 5/span 4;
+
+    
+}
+#ele2 img,#ele3 img,#ele4 img{
+
+    width: 100%;
+    border-radius: 0.8rem;
+
+   
+    
+}
+#ele2 ,#ele3 ,#ele4 {
+
+    border: 3px double rgb(217, 99, 49);
+    border-radius: 0.8rem;
+    height: fit-content;   
+    
+    
+}
+
+#ele4{
+    grid-column: 9/span 4;
+
+    
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+@media screen and (max-width: 430px) {
+    #ele2,#ele3,#ele4{
+        
+        grid-column: span 10; /* Allow the article to span the full width on smaller screens */
+    }
+}
